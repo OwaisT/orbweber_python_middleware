@@ -1,0 +1,7 @@
+# Protected data
+.env
+
+# misc
+/__pycache__
+requirements.txt
+robots.txt
