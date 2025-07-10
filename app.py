@@ -83,7 +83,7 @@ load_data()
 def authenticate(api_key):
     return api_key == app.config['API_KEY']
 
-# Define the routes
+# Endpoints
 # The route for reloading data every 4 hrs since airtable image links expire every 4 hrs
 @app.route("/data_reload", methods=['GET'])
 def data_reload():

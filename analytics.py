@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# ANalytics ID for Google Analytics
 GA4_MEASUREMENT_ID = os.getenv('GA4_MEASUREMENT_ID')
 API_SECRET = os.getenv('API_SECRET_GA4')
 
