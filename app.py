@@ -30,7 +30,7 @@ about = None
 contact = None
 blog_meta = None
 
-# Load the data from the Airtable
+# Load the data from the DB
 def load_data():
     global window_home
     global service_services
